@@ -29,12 +29,11 @@ API-Mongo/ \
 │   │── users.py --> Routes pour les utilisateurs\
 │   │── posts.py --> Routes pour les posts\
 │   │── comments.py --> Routes pour les commentaires\
-│── tests/ --> Tests unitaires\
 │── .gitignore --> Fichiers à ignorer par Git\
 │── README.md --> Documentation du projet\
 └── docker-compose.yml --> Configuration Docker pour Neo4j\
 
-3. Installez les dépendances :
+1. Installez les dépendances :
 
 ```bash
 pip install -r requirements.txt
